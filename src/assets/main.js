@@ -42,7 +42,7 @@ function setHiddenFields() {
 }
 function setMessage(msgText) {
 	let message = document.getElementById("message");
-	message.value =msgText;
+	message.innerHTML =msgText;
 }
 function validateInput(param) {
 	if (param.length==4) {
